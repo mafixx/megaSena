@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Luck {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
-        for (int i=1; i<61; i++) {
+        for (int i = 1; i < 61; i++) {
             list.add(Integer.valueOf(i));
         }
         Collections.shuffle(list);
